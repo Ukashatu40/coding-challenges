@@ -1,3 +1,9 @@
+// premium question
+
+/**
+ * @param {number[][]} grid
+ * @return {number}
+ */
 function maxAreaOfIsland(grid: number[][]): number {
   if (!grid.length) return 0;
   const rows = grid.length;
